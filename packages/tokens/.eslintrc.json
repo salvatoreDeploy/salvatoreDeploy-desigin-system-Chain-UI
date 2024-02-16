@@ -1,0 +1,3 @@
+{
+  "extends": "@chain-reaction-ui/eslint-config"
+}

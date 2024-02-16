@@ -1,0 +1,4 @@
+{
+  "extends": "@chain-reaction-ui/ts-config/react.json",
+  "include": ["src"]
+}

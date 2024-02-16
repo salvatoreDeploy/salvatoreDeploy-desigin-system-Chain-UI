@@ -1,0 +1,6 @@
+{
+  "extends": "@chain-reaction-ui/eslint-config",
+  "rules": {
+    "@typescript-eslint/no-empty-interface": "off"
+  }
+}
