@@ -19,6 +19,11 @@ jobs:
 
       - run: npm ci
 
+      - run: npm run build
+        env:
+          TURBO_TOKEN: TnMpgDeNIYHW5166uruSTp6k
+          TURBO_TEAM: salvatoredeploy
+
       - name: Deploy storybook
         working-directory: ./packages/docs
         run: touch storybook-static/.nojekyll && npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
