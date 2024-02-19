@@ -31,7 +31,7 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta<TextProps>
 
 export const Primary: StoryObj<TextProps> = {}
 export const CustomTag: StoryObj<TextProps> = {

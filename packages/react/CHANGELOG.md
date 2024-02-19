@@ -1,5 +1,11 @@
 # @chain-reaction-ui/react
 
+## 2.1.0
+
+### Minor Changes
+
+- Add property size, alter type
+
 ## 2.0.2
 
 ### Patch Changes
